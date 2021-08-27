@@ -105,7 +105,7 @@ h6, .h6 { font-size: 0.75rem; }
 
 .highlight .k, .highlight .kc, .highlight .kd, .highlight .kn, .highlight .kr, .highlight .kt, .highlight .kp { color: #00369f; }
 
-.highlight .na, .highlight .nb, .highlight .nc, .highlight .no, .highlight .nd, .highlight .ni, .highlight .ne, .highlight .nf, .highlight .nl, .highlight .nn, .highlight .nx { color: #333; }
+.highlight .na, .highlight .nb, .highlight .nc, .highlight .no, .highlight .nd, .highlight .ni, .highlight .ne, .highlight .nf, .highlight .nl, .highlight .nn, .highlight .nx { color: #222; }
 
 .highlight .mi, .highlight .il { color: #009f06; }
 
@@ -138,7 +138,7 @@ h6, .h6 { font-size: 0.75rem; }
 .hljs-chunk { color: #ccc; }
 
 /* Basscss Color Base */
-body { color: #333; background-color: white; }
+body { color: #222; background-color: white; }
 
 a { color: #5d8aa8; text-decoration: none; }
 
@@ -149,7 +149,7 @@ pre, code { background-color: #eee; border-radius: 3px; }
 hr { border: 0; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #ccc; }
 
 /* Basscss Colors */
-.dark-gray { color: #333; }
+.dark-gray { color: #222; }
 
 .white { color: white; }
 
@@ -169,7 +169,7 @@ hr { border: 0; border-bottom-style: solid; border-bottom-width: 1px; border-bot
 
 .orange { color: #F29105; }
 
-.bg-dark-gray { background-color: #333; }
+.bg-dark-gray { background-color: #222; }
 
 .bg-white { background-color: white; }
 
@@ -330,7 +330,7 @@ body { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: 
 
 .right { float: right; }
 
-.site-header { border-bottom: 1px solid #e8e8e8; background-color: #fff; opacity: 0.95; position: fixed; left: 0px; top: 0px; width: 100%; z-index: 50; }
+.site-header { border-bottom: 1px solid #b5b5b5; background-color: #fff; opacity: 0.95; position: fixed; left: 0px; top: 0px; width: 100%; z-index: 50; }
 
 .site-title { font-size: 20px; line-height: 56px; letter-spacing: -1px; margin-bottom: 0; }
 
@@ -339,10 +339,10 @@ body { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: 
 .site-nav .menu-icon { display: none; }
 .site-nav .page-link { line-height: 1.5; }
 .site-nav .page-link:not(:first-child) { margin-left: 10px; }
-@media screen and (max-width: 600px) { .site-nav { position: absolute; top: 9px; right: 25px; background-color: white; border: 1px solid #e8e8e8; border-radius: 5px; text-align: right; }
+@media screen and (max-width: 600px) { .site-nav { position: absolute; top: 9px; right: 25px; background-color: white; border: 1px solid #b5b5b5; border-radius: 5px; text-align: right; }
   .site-nav label[for="nav-trigger"] { display: block; float: right; width: 36px; height: 36px; z-index: 2; cursor: pointer; }
   .site-nav .menu-icon { display: block; float: right; width: 36px; height: 26px; line-height: 0; padding-top: 10px; text-align: center; }
-  .site-nav .menu-icon > svg path { fill: #424242; }
+  .site-nav .menu-icon > svg path { fill: #363636; }
   .site-nav input ~ .trigger { clear: both; display: none; }
   .site-nav input:checked ~ .trigger { display: block; padding-bottom: 5px; }
   .site-nav .page-link { display: block; padding: 5px 10px; margin-left: 10px; }
@@ -356,7 +356,7 @@ body { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: 
 
 .site-wrap { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1 0 auto; flex: 1 0 auto; }
 
-footer { background-color: #fff; border-top: thin solid #e8e8e8; color: #ccc; text-align: center; font-size: 0.75rem; font-weight: 300; padding: 0.5rem; position: fixed; left: 0px; bottom: 0px; width: 100%; }
+footer { background-color: #fff; border-top: thin solid #b5b5b5; color: #ccc; text-align: center; font-size: 0.75rem; font-weight: 300; padding: 0.5rem; position: fixed; left: 0px; bottom: 0px; width: 100%; }
 footer a { color: #fff; }
 footer a:hover { color: #5d8aa8; }
 
@@ -387,9 +387,9 @@ footer a:hover { color: #5d8aa8; }
 .project .thumbnail { overflow: hidden; height: 200px; width: 100%; }
 .project .thumbnail img { height: auto; position: relative; left: -25%; top: -5%; width: 500px; }
 .project .thumbnail a { float: left; height: 230px; position: relative; width: 100%; }
-.project .thumbnail a span { display: none; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background: rgba(0, 0, 0, 0.4); color: #e8e8e8; padding: 40px; text-align: center; }
+.project .thumbnail a span { display: none; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background: rgba(0, 0, 0, 0.4); color: #b5b5b5; padding: 40px; text-align: center; }
 .project .thumbnail a span h1 { font-size: 1.5rem; margin: 0; }
-.project .thumbnail a span p { color: #e8e8e8; }
+.project .thumbnail a span p { color: #b5b5b5; }
 .project .thumbnail a:hover span { display: block; }
 
 .profile img { margin-left: 20px; width: 100%; }
@@ -397,7 +397,7 @@ footer a:hover { color: #5d8aa8; }
 .address { font-family: monospace; }
 .address p { margin: 0; }
 
-.news { border-top: 1px solid #e8e8e8; margin-top: 30px; padding-top: 20px; }
+.news { border-top: 1px solid #b5b5b5; margin-top: 30px; padding-top: 20px; }
 .news h2 { font-weight: bold; margin-top: 0; margin-bottom: 10px; }
 .news table { border-collapse: collapse; width: 100%; }
 .news table .date { width: 19%; }
@@ -425,23 +425,24 @@ footer a:hover { color: #5d8aa8; }
 
 .button-disabled:hover, .button-disabled:active, .button-disabled:focus { cursor: not-allowed; background-color: #999; }
 
-.publications h2 { color: #5d8aa8; font-size: 32px; text-align: center; }
+.publications h2 { color: #b5b5b5; font-size: 32px; text-align: left; }
 
 .year { color: #ccc; margin: 0 0 0 0; padding-top: .5ex; text-align: left; font-size: 28px; }
 
-.bibliography { margin-bottom: 0; list-style-type: none; }
-.bibliography li { margin: 20px 10px; position: relative; }
+.bibliography { margin-bottom: 0; margin-left: -2em; list-style-type: none; }
+.bibliography li { margin: 20px 0px; text-align: left; position: relative; }
 .bibliography li span { display: block; }
+.bibliography li .author { color: #525252; }
 .bibliography li .author a { border-bottom: 1px dashed #5d8aa8; }
 .bibliography li .author a:hover { border-bottom-style: solid; text-decoration: none; }
 .bibliography li .author > em { font-style: normal; font-weight: bolder; }
+.bibliography li .periodical { color: #525252; }
 .bibliography li a.abstract, .bibliography li a.bibtex { cursor: pointer; }
 .bibliography li .hidden { font-size: 0.875rem; max-height: 0px; overflow: hidden; text-align: justify; -webkit-transition: 0.15s ease; -moz-transition: 0.15s ease; -ms-transition: 0.15s ease; -o-transition: 0.15s ease; transition: all 0.15s ease; }
 .bibliography li .hidden p { line-height: 1.4em; margin: 10px; }
 .bibliography li .hidden pre { font-size: 1em; line-height: 1.4em; padding: 10px; }
 .bibliography li .hidden.open { max-height: 100em; -webkit-transition: 0.15s ease; -moz-transition: 0.15s ease; -ms-transition: 0.15s ease; -o-transition: 0.15s ease; transition: all 0.15s ease; }
-.bibliography li span.abstract.hidden { border: dashed 1px white; }
-.bibliography li span.abstract.hidden.open { border-color: #828282; }
+.bibliography li span.abstract.hidden.open { background-color: #f0f0f0; }
 .bibliography abbr { position: absolute; left: -7em; }
 
 .star { color: #5d8aa8; font-style: normal; }
@@ -454,7 +455,7 @@ pre, pre code { background-color: transparent; border-radius: 0; }
 
 pre, code { font-family: "Source Code Pro", Consolas, monospace; }
 
-code { color: #333; font-size: 85%; padding-bottom: 0.1em; padding-left: 0.2em; padding-right: 0.2em; padding-top: 0.1em; }
+code { color: #222; font-size: 85%; padding-bottom: 0.1em; padding-left: 0.2em; padding-right: 0.2em; padding-top: 0.1em; }
 
 pre { padding: 1.125em; line-height: 1.11; overflow-x: scroll; margin-bottom: 0.88em; background-color: #fafafa; }
 
@@ -494,11 +495,11 @@ figcaption { font-size: 0.875rem; }
 
 .gist .lines { width: 100%; }
 
-a { color: #333; text-decoration: none; }
+a { color: #222; text-decoration: none; }
 a:hover { color: #5d8aa8; text-decoration: none; }
 
 article a, .news a { color: #5d8aa8; }
-article a:hover, .news a:hover { color: #406278; text-decoration: none; }
+article a:hover, .news a:hover { color: #385467; text-decoration: none; }
 
 .social a { color: #ccc; }
 .social a:hover { color: #666; }
@@ -525,7 +526,7 @@ table > tbody + tbody { border-top: 2px solid #333; }
 
 html { font-size: 16px; }
 
-body { color: #333; font-weight: 100; }
+body { color: #222; font-weight: 100; }
 
 abbr { border-bottom: 1px black dotted; cursor: help; }
 
