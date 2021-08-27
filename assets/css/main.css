@@ -432,6 +432,7 @@ footer a:hover { color: #5d8aa8; }
 .bibliography { margin-bottom: 0; margin-left: -2em; list-style-type: none; }
 .bibliography li { margin: 20px 0px; text-align: left; position: relative; }
 .bibliography li span { display: block; }
+.bibliography li .title > em { font-style: normal; font-weight: bolder; }
 .bibliography li .author { color: #525252; }
 .bibliography li .author a { border-bottom: 1px dashed #5d8aa8; }
 .bibliography li .author a:hover { border-bottom-style: solid; text-decoration: none; }
