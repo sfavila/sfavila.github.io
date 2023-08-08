@@ -89,7 +89,7 @@ h6, .h6 { font-size: 0.75rem; }
 
 .list-reset { list-style: none; padding-left: 0; }
 
-.button-blue { color: white; background-color: #5d8aa8; border-radius: 3px; transition-duration: .1s; transition-timing-function: ease-out; transition-property: box-shadow, background-color; }
+.button-blue { color: white; background-color: #527d99; border-radius: 3px; transition-duration: .1s; transition-timing-function: ease-out; transition-property: box-shadow, background-color; }
 
 .button-blue:hover { opacity: .875; }
 
@@ -140,7 +140,7 @@ h6, .h6 { font-size: 0.75rem; }
 /* Basscss Color Base */
 body { color: #222; background-color: white; }
 
-a { color: #5d8aa8; text-decoration: none; }
+a { color: #527d99; text-decoration: none; }
 
 a:hover { text-decoration: underline; }
 
@@ -349,7 +349,7 @@ body { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: 
   .site-nav .page-link:not(:last-child) { margin-right: 0; } }
 
 .header-bar { border-bottom: 1px solid #ccc; font-size: 20px; display: block; opacity: 0.75; width: 100%; text-align: center; padding-top: 25px; padding-bottom: 4rem; line-height: 3em; z-index: 25; }
-.header-bar h1 { color: #5d8aa8; font-size: 75px; }
+.header-bar h1 { color: #527d99; font-size: 75px; }
 .header-bar h2 { font-size: 25px; }
 
 .site { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; min-height: 100vh; }
@@ -358,7 +358,7 @@ body { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: 
 
 footer { background-color: #fff; border-top: thin solid #b5b5b5; color: #ccc; text-align: center; font-size: 0.75rem; font-weight: 300; padding: 0.5rem; position: fixed; left: 0px; bottom: 0px; width: 100%; }
 footer a { color: #fff; }
-footer a:hover { color: #5d8aa8; }
+footer a:hover { color: #527d99; }
 
 .page-content { padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */ }
 
@@ -415,7 +415,7 @@ footer a:hover { color: #5d8aa8; }
 
 .pagination .pagination-meta { overflow: hidden; }
 
-.pagination a:hover, .pagination a:focus { background: white; color: #5d8aa8; }
+.pagination a:hover, .pagination a:focus { background: white; color: #527d99; }
 
 .pagination a:active { background: #f7f7f7; }
 
@@ -434,7 +434,7 @@ footer a:hover { color: #5d8aa8; }
 .bibliography li span { display: block; }
 .bibliography li .title > em { font-style: normal; font-weight: bolder; }
 .bibliography li .author { color: #525252; }
-.bibliography li .author a { border-bottom: 1px dashed #5d8aa8; }
+.bibliography li .author a { border-bottom: 1px dashed #527d99; }
 .bibliography li .author a:hover { border-bottom-style: solid; text-decoration: none; }
 .bibliography li .author > em { font-style: normal; font-weight: bolder; }
 .bibliography li .periodical { color: #525252; }
@@ -446,7 +446,7 @@ footer a:hover { color: #5d8aa8; }
 .bibliography li span.abstract.hidden.open { background-color: #f0f0f0; }
 .bibliography abbr { position: absolute; left: -7em; }
 
-.star { color: #5d8aa8; font-style: normal; }
+.star { color: #527d99; font-style: normal; }
 
 blockquote { border-left: 5px solid #7a7a7a; font-style: italic; margin-left: 0.5rem; padding: 0.5rem; }
 
@@ -478,7 +478,7 @@ figure > img { display: block; }
 
 figcaption { font-size: 0.875rem; }
 
-.blankbox { background: #5d8aa8; }
+.blankbox { background: #527d99; }
 
 .img_row { height: 275px; width: 100%; overflow: hidden; box-sizing: border-box; }
 
@@ -497,10 +497,10 @@ figcaption { font-size: 0.875rem; }
 .gist .lines { width: 100%; }
 
 a { color: #222; text-decoration: none; }
-a:hover { color: #5d8aa8; text-decoration: none; }
+a:hover { color: #527d99; text-decoration: none; }
 
-article a, .news a { color: #5d8aa8; }
-article a:hover, .news a:hover { color: #385467; text-decoration: none; }
+article a, .news a { color: #527d99; }
+article a:hover, .news a:hover { color: #2e4757; text-decoration: none; }
 
 .social a { color: #ccc; }
 .social a:hover { color: #666; }
