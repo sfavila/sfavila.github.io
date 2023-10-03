@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://sfavila.github.io/sitemap.xml
